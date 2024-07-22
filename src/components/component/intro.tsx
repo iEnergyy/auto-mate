@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function Intro() {
@@ -24,7 +25,7 @@ export function Intro() {
             </Link>
           </div>
         </div>
-        <img
+        <Image
           src="/placeholder.svg"
           width="550"
           height="550"
